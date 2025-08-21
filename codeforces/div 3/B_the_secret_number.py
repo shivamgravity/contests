@@ -5,7 +5,7 @@ def main():
         n = int(input())
         a = 1
         res = []
-        while n // (1 + 10**a) >:
+        while n // (1 + 10**a):
             if n % (1 + 10**a) != 0:
                 a += 1
                 continue
